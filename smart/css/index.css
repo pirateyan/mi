@@ -1,0 +1,131 @@
+html,body,header,section,nav,div,ul,li,a{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    font-family: "weiruanyahei";
+}
+ul,li{
+    list-style: none;
+}
+img{
+    display: block;
+    border: 0;
+}
+body{
+    font-size: 12px;
+    font-family: "weiruanyahei";
+}
+/**************************/
+header{
+    width: 100%;
+    height: 100px;
+    background: url("../img/header-black-bg_e8d000aaf3.png") no-repeat left top;
+}
+header section{
+    width: 1220px;
+    margin: 0 auto;
+}
+.logo{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url("../img/logo_3f5bbb6a40.png") no-repeat;
+    float: left;
+    margin-top: 25px;
+}
+.nav{
+    float: right;
+    line-height: 25px;
+  /*  width: 780px;*/
+}
+.nav ul{
+    padding-top: 36px;
+    float: left;
+} 
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    display: block;
+    height: 20px;
+    padding: 0 20px;
+    line-height: 2.2;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.6;
+   /* font-family: "weiruanyahei";*/
+}
+.nav ul li:first-child a{
+    opacity: 1;
+}
+.nav ul li a:hover{
+    opacity: 1;
+}
+.nav div{
+    float: right;
+    padding: 39px 0 0 41px;
+    margin-left: 20px;
+}
+.nav div a{
+    display: block;
+    width: 98px;
+    height: 26px;
+    background: linear-gradient(#181818,#131313);
+    border: 1px solid #2e2e2e;
+    border-radius: 4px;
+    line-height: 26px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    opacity: 0.8;
+}
+
+/**********************/
+.contentbg{
+    background: #ededed;
+    overflow: hidden;
+}
+.content{
+    width: 1220px;
+    margin: 0 auto;
+}
+nav{
+    height: 90px;
+    width: 100%;
+}
+nav ul{
+    float: left;
+    padding: 37px 0 0 0;
+    color: #45474b;
+}
+nav ul li{
+    float: left;
+    padding-left: 42px;
+    line-height: 16px;
+}
+nav ul li:first-child{
+    padding-left: 9px;
+    font-weight: bold;
+}
+nav ul li a{
+    color: #666;
+}
+nav ul li a:hover{
+    color: #6b95ea;
+}
+.cart{
+    float: right;
+    position: relative;
+    width: 104px;
+    height: 40px;
+    margin: 34px 10px 0 0;
+    line-height: 20px;
+}
+.cart a{
+    display: block;
+    color: #666;
+    background: url("../img/btn-icon_106a4e7a34.png") no-repeat -11px -465px;
+    text-indent: 31px;
+}
